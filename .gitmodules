@@ -1,3 +1,4 @@
 [submodule "uvc-src/source"]
 	path = uvc-src/source
-	url = https://github.com/libuvc/libuvc.git
+	url = https://github.com/leapmotion/libuvc.git
+	branch = test-libuvc-rs-build

@@ -19,3 +19,12 @@ Documentation can be created with `cargo doc`
 
 ## Dependencies
 To use this crate, the `libuvc` native dependency must be installed, or vendored using the `vendor` feature. Disable the default-features and choose the feature `vendor` or `system` to select supplier.
+
+## Build steps on Windows
+
+via Git Bash (equivalent commands possible via PowerShell):
+```sh
+mkdir deps && cd deps # or wherever you'd like libuvc src to live
+git clone https://github.com/libuvc/libuvc
+cd ..
+```

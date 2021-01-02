@@ -17,6 +17,7 @@ fn main() {
     let mut builder = bindgen::Builder::default();
 
     if let Some(include) = includedir {
+        println!("using include: {}", include);
         builder = builder.clang_arg(format!("-I{}", include));
     }
 
